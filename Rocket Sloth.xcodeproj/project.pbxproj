@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B3704991902B279001FC23F /* SKPoints.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3704981902B279001FC23F /* SKPoints.m */; };
+		3B37049C1902B2FB001FC23F /* SKKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B37049B1902B2FB001FC23F /* SKKey.m */; };
+		3B3704A01902F9CF001FC23F /* SKCage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B37049F1902F9CF001FC23F /* SKCage.m */; };
+		3B3704A31902FA00001FC23F /* SKMonkey.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3704A21902FA00001FC23F /* SKMonkey.m */; };
+		3B3704A61902FA1F001FC23F /* SKLion.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3704A51902FA1F001FC23F /* SKLion.m */; };
+		3B46A2EC18FF127E002590E9 /* SKLevelOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B46A2EB18FF127E002590E9 /* SKLevelOne.m */; };
 		3B81FD5718FD9B7500B4BCFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B81FD5618FD9B7500B4BCFE /* Foundation.framework */; };
 		3B81FD5918FD9B7500B4BCFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B81FD5818FD9B7500B4BCFE /* CoreGraphics.framework */; };
 		3B81FD5B18FD9B7500B4BCFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B81FD5A18FD9B7500B4BCFE /* UIKit.framework */; };
@@ -15,13 +21,20 @@
 		3B81FD6718FD9B7500B4BCFE /* SpriteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B81FD6618FD9B7500B4BCFE /* SpriteAppDelegate.m */; };
 		3B81FD6A18FD9B7500B4BCFE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B81FD6818FD9B7500B4BCFE /* Main_iPhone.storyboard */; };
 		3B81FD6D18FD9B7500B4BCFE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B81FD6B18FD9B7500B4BCFE /* Main_iPad.storyboard */; };
-		3B81FD7018FD9B7500B4BCFE /* SpriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B81FD6F18FD9B7500B4BCFE /* SpriteViewController.m */; };
+		3B81FD7018FD9B7500B4BCFE /* SKController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B81FD6F18FD9B7500B4BCFE /* SKController.m */; };
 		3B81FD7218FD9B7500B4BCFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B81FD7118FD9B7500B4BCFE /* Images.xcassets */; };
 		3B81FD7918FD9B7500B4BCFE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B81FD7818FD9B7500B4BCFE /* XCTest.framework */; };
 		3B81FD7A18FD9B7500B4BCFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B81FD5618FD9B7500B4BCFE /* Foundation.framework */; };
 		3B81FD7B18FD9B7500B4BCFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B81FD5A18FD9B7500B4BCFE /* UIKit.framework */; };
 		3B81FD8318FD9B7500B4BCFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B81FD8118FD9B7500B4BCFE /* InfoPlist.strings */; };
 		3B81FD8518FD9B7500B4BCFE /* Rocket_SlothTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B81FD8418FD9B7500B4BCFE /* Rocket_SlothTests.m */; };
+		3B81FD8F18FD9BE000B4BCFE /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B81FD8E18FD9BE000B4BCFE /* SpriteKit.framework */; };
+		3B81FD9218FD9E4D00B4BCFE /* SKHelloScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B81FD9118FD9E4D00B4BCFE /* SKHelloScene.m */; };
+		3B81FD9A18FDE5E100B4BCFE /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B81FD9918FDE5E100B4BCFE /* GameKit.framework */; };
+		3B81FD9C18FDE5FF00B4BCFE /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B81FD9B18FDE5FF00B4BCFE /* StoreKit.framework */; };
+		3BE1ACD21906CEA500305777 /* SKSloth.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE1ACD11906CEA500305777 /* SKSloth.m */; };
+		3BEAE34D1901F3510045995D /* SKPizza.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEAE34C1901F3510045995D /* SKPizza.m */; };
+		3BEAE3511901FBE00045995D /* FlyingSloth.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 3BEAE3501901FBE00045995D /* FlyingSloth.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B3704971902B279001FC23F /* SKPoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPoints.h; sourceTree = "<group>"; };
+		3B3704981902B279001FC23F /* SKPoints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPoints.m; sourceTree = "<group>"; };
+		3B37049A1902B2FB001FC23F /* SKKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKKey.h; sourceTree = "<group>"; };
+		3B37049B1902B2FB001FC23F /* SKKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKKey.m; sourceTree = "<group>"; };
+		3B37049E1902F9CF001FC23F /* SKCage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCage.h; sourceTree = "<group>"; };
+		3B37049F1902F9CF001FC23F /* SKCage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCage.m; sourceTree = "<group>"; };
+		3B3704A11902FA00001FC23F /* SKMonkey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKMonkey.h; sourceTree = "<group>"; };
+		3B3704A21902FA00001FC23F /* SKMonkey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKMonkey.m; sourceTree = "<group>"; };
+		3B3704A41902FA1F001FC23F /* SKLion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKLion.h; sourceTree = "<group>"; };
+		3B3704A51902FA1F001FC23F /* SKLion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKLion.m; sourceTree = "<group>"; };
+		3B46A2EA18FF127E002590E9 /* SKLevelOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKLevelOne.h; sourceTree = "<group>"; };
+		3B46A2EB18FF127E002590E9 /* SKLevelOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKLevelOne.m; sourceTree = "<group>"; };
 		3B81FD5318FD9B7500B4BCFE /* Rocket Sloth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rocket Sloth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B81FD5618FD9B7500B4BCFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3B81FD5818FD9B7500B4BCFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,14 +72,25 @@
 		3B81FD6618FD9B7500B4BCFE /* SpriteAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteAppDelegate.m; sourceTree = "<group>"; };
 		3B81FD6918FD9B7500B4BCFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		3B81FD6C18FD9B7500B4BCFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		3B81FD6E18FD9B7500B4BCFE /* SpriteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpriteViewController.h; sourceTree = "<group>"; };
-		3B81FD6F18FD9B7500B4BCFE /* SpriteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteViewController.m; sourceTree = "<group>"; };
+		3B81FD6E18FD9B7500B4BCFE /* SKController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKController.h; sourceTree = "<group>"; };
+		3B81FD6F18FD9B7500B4BCFE /* SKController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKController.m; sourceTree = "<group>"; };
 		3B81FD7118FD9B7500B4BCFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3B81FD7718FD9B7500B4BCFE /* Rocket SlothTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rocket SlothTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B81FD7818FD9B7500B4BCFE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3B81FD8018FD9B7500B4BCFE /* Rocket SlothTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rocket SlothTests-Info.plist"; sourceTree = "<group>"; };
 		3B81FD8218FD9B7500B4BCFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3B81FD8418FD9B7500B4BCFE /* Rocket_SlothTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rocket_SlothTests.m; sourceTree = "<group>"; };
+		3B81FD8E18FD9BE000B4BCFE /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		3B81FD9018FD9E4D00B4BCFE /* SKHelloScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKHelloScene.h; sourceTree = "<group>"; };
+		3B81FD9118FD9E4D00B4BCFE /* SKHelloScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKHelloScene.m; sourceTree = "<group>"; };
+		3B81FD9918FDE5E100B4BCFE /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		3B81FD9B18FDE5FF00B4BCFE /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3B81FD9D18FDE64900B4BCFE /* Rocket Sloth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Rocket Sloth.entitlements"; sourceTree = "<group>"; };
+		3BE1ACD01906CEA500305777 /* SKSloth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSloth.h; sourceTree = "<group>"; };
+		3BE1ACD11906CEA500305777 /* SKSloth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSloth.m; sourceTree = "<group>"; };
+		3BEAE34B1901F3510045995D /* SKPizza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPizza.h; sourceTree = "<group>"; };
+		3BEAE34C1901F3510045995D /* SKPizza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPizza.m; sourceTree = "<group>"; };
+		3BEAE3501901FBE00045995D /* FlyingSloth.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = FlyingSloth.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +98,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B81FD8F18FD9BE000B4BCFE /* SpriteKit.framework in Frameworks */,
 				3B81FD5918FD9B7500B4BCFE /* CoreGraphics.framework in Frameworks */,
 				3B81FD5B18FD9B7500B4BCFE /* UIKit.framework in Frameworks */,
+				3B81FD9C18FDE5FF00B4BCFE /* StoreKit.framework in Frameworks */,
 				3B81FD5718FD9B7500B4BCFE /* Foundation.framework in Frameworks */,
+				3B81FD9A18FDE5E100B4BCFE /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +120,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B37049D1902F935001FC23F /* Solid Objects */ = {
+			isa = PBXGroup;
+			children = (
+				3B37049E1902F9CF001FC23F /* SKCage.h */,
+				3B37049F1902F9CF001FC23F /* SKCage.m */,
+				3B3704A11902FA00001FC23F /* SKMonkey.h */,
+				3B3704A21902FA00001FC23F /* SKMonkey.m */,
+				3B3704A41902FA1F001FC23F /* SKLion.h */,
+				3B3704A51902FA1F001FC23F /* SKLion.m */,
+			);
+			name = "Solid Objects";
+			sourceTree = "<group>";
+		};
 		3B81FD4A18FD9B7500B4BCFE = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +155,9 @@
 		3B81FD5518FD9B7500B4BCFE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3B81FD9B18FDE5FF00B4BCFE /* StoreKit.framework */,
+				3B81FD9918FDE5E100B4BCFE /* GameKit.framework */,
+				3B81FD8E18FD9BE000B4BCFE /* SpriteKit.framework */,
 				3B81FD5618FD9B7500B4BCFE /* Foundation.framework */,
 				3B81FD5818FD9B7500B4BCFE /* CoreGraphics.framework */,
 				3B81FD5A18FD9B7500B4BCFE /* UIKit.framework */,
@@ -114,17 +169,24 @@
 		3B81FD5C18FD9B7500B4BCFE /* Rocket Sloth */ = {
 			isa = PBXGroup;
 			children = (
+				3B37049D1902F935001FC23F /* Solid Objects */,
+				3BEAE34E1901F8500045995D /* Scenes */,
+				3BEAE34F1901F8730045995D /* Points */,
+				3B81FD9D18FDE64900B4BCFE /* Rocket Sloth.entitlements */,
 				3B81FD6518FD9B7500B4BCFE /* SpriteAppDelegate.h */,
 				3B81FD6618FD9B7500B4BCFE /* SpriteAppDelegate.m */,
 				3B81FD6818FD9B7500B4BCFE /* Main_iPhone.storyboard */,
 				3B81FD6B18FD9B7500B4BCFE /* Main_iPad.storyboard */,
-				3B81FD6E18FD9B7500B4BCFE /* SpriteViewController.h */,
-				3B81FD6F18FD9B7500B4BCFE /* SpriteViewController.m */,
+				3B81FD6E18FD9B7500B4BCFE /* SKController.h */,
+				3B81FD6F18FD9B7500B4BCFE /* SKController.m */,
 				3B81FD7118FD9B7500B4BCFE /* Images.xcassets */,
 				3B81FD5D18FD9B7500B4BCFE /* Supporting Files */,
+				3BEAE3521901FDD60045995D /* New Group */,
+				3BE1ACD01906CEA500305777 /* SKSloth.h */,
+				3BE1ACD11906CEA500305777 /* SKSloth.m */,
 			);
 			path = "Rocket Sloth";
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		3B81FD5D18FD9B7500B4BCFE /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -153,6 +215,38 @@
 				3B81FD8118FD9B7500B4BCFE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BEAE34E1901F8500045995D /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				3B46A2EA18FF127E002590E9 /* SKLevelOne.h */,
+				3B46A2EB18FF127E002590E9 /* SKLevelOne.m */,
+				3B81FD9018FD9E4D00B4BCFE /* SKHelloScene.h */,
+				3B81FD9118FD9E4D00B4BCFE /* SKHelloScene.m */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		3BEAE34F1901F8730045995D /* Points */ = {
+			isa = PBXGroup;
+			children = (
+				3B3704971902B279001FC23F /* SKPoints.h */,
+				3B3704981902B279001FC23F /* SKPoints.m */,
+				3BEAE34B1901F3510045995D /* SKPizza.h */,
+				3BEAE34C1901F3510045995D /* SKPizza.m */,
+				3B37049A1902B2FB001FC23F /* SKKey.h */,
+				3B37049B1902B2FB001FC23F /* SKKey.m */,
+			);
+			name = Points;
+			sourceTree = "<group>";
+		};
+		3BEAE3521901FDD60045995D /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				3BEAE3501901FBE00045995D /* FlyingSloth.atlas */,
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +297,20 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Snacks;
 				TargetAttributes = {
+					3B81FD5218FD9B7500B4BCFE = {
+						DevelopmentTeam = HV8S8LQ69S;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
 					3B81FD7618FD9B7500B4BCFE = {
 						TestTargetID = 3B81FD5218FD9B7500B4BCFE;
 					};
@@ -234,6 +342,7 @@
 			files = (
 				3B81FD6D18FD9B7500B4BCFE /* Main_iPad.storyboard in Resources */,
 				3B81FD7218FD9B7500B4BCFE /* Images.xcassets in Resources */,
+				3BEAE3511901FBE00045995D /* FlyingSloth.atlas in Resources */,
 				3B81FD6A18FD9B7500B4BCFE /* Main_iPhone.storyboard in Resources */,
 				3B81FD6118FD9B7500B4BCFE /* InfoPlist.strings in Resources */,
 			);
@@ -254,9 +363,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B3704A31902FA00001FC23F /* SKMonkey.m in Sources */,
+				3BEAE34D1901F3510045995D /* SKPizza.m in Sources */,
+				3B3704A01902F9CF001FC23F /* SKCage.m in Sources */,
+				3BE1ACD21906CEA500305777 /* SKSloth.m in Sources */,
+				3B37049C1902B2FB001FC23F /* SKKey.m in Sources */,
 				3B81FD6318FD9B7500B4BCFE /* main.m in Sources */,
+				3B81FD9218FD9E4D00B4BCFE /* SKHelloScene.m in Sources */,
+				3B3704A61902FA1F001FC23F /* SKLion.m in Sources */,
+				3B3704991902B279001FC23F /* SKPoints.m in Sources */,
 				3B81FD6718FD9B7500B4BCFE /* SpriteAppDelegate.m in Sources */,
-				3B81FD7018FD9B7500B4BCFE /* SpriteViewController.m in Sources */,
+				3B81FD7018FD9B7500B4BCFE /* SKController.m in Sources */,
+				3B46A2EC18FF127E002590E9 /* SKLevelOne.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,10 +509,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "Rocket Sloth/Rocket Sloth.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Rocket Sloth/Rocket Sloth-Prefix.pch";
 				INFOPLIST_FILE = "Rocket Sloth/Rocket Sloth-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -404,10 +526,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "Rocket Sloth/Rocket Sloth.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Rocket Sloth/Rocket Sloth-Prefix.pch";
 				INFOPLIST_FILE = "Rocket Sloth/Rocket Sloth-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -471,6 +597,7 @@
 				3B81FD8A18FD9B7500B4BCFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B81FD8B18FD9B7500B4BCFE /* Build configuration list for PBXNativeTarget "Rocket SlothTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +606,7 @@
 				3B81FD8D18FD9B7500B4BCFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
