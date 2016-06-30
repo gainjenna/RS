@@ -28,7 +28,6 @@ NSTimeInterval _dt;
 @interface SKLevelOne ()
 @property BOOL contentCreated;
 @property (nonatomic) NSTimeInterval lastUpdateTime;
-
 @property (nonatomic) NSTimeInterval lastSpawnTimeInterval;
 @property (nonatomic) NSTimeInterval lastUpdateTimeInterval;
 @property NSTimeInterval _lastPizzaAdded;
